@@ -2,27 +2,28 @@
 # Date: 18/09/2026
 ## Register Number: 212224040260  
 ## Name: R RAIHAAN AHMED 
-## Problem Title
-Online Monitoring of Unauthorized Construction Across the City
+## Problem Title: 
+Enhancing Navigation for Railway Station Facilities and Locations
 
-SIH Problem Statement No.: SIH1618
+SIH Problem Statement No.: SIH1710
 
-Category: Software / Robotics & Drones
-Problem Creator: Government of NCT of Delhi
-Implementing Organization: Municipal Corporation of Delhi (MCD)
+Category: Software
+
+Theme: Transportation & Logistics
+
+## Problem Creator's Organization
+
+Ministry of Railways
 
 ## Problem Description
 
-Problem Description
+Railway stations are complex environments containing numerous facilities and locations such as ticket counters, platforms, restrooms, food courts, waiting areas, lifts, escalators and help desks. Passengers, especially those visiting large or unfamiliar stations, may face difficulties in locating these facilities and reaching their destinations on time.
 
-MCD is working on monitoring unauthorized construction across the city and requires a viable and low-cost technological solution for effective monitoring.
+The proposed solution is a smart railway station navigation system that provides passengers with detailed station maps, location-based facility search and step-by-step navigation.
 
-Unauthorized construction can be difficult to identify and monitor continuously across a large urban area using conventional inspection methods. A web-based monitoring platform can help authorities collect reports, record construction locations, upload photographic evidence, monitor complaints, and track the status of verification and action.
+The system can provide real-time directions within the railway station, accessibility options for passengers with disabilities, and updated information about station facilities.
 
-The proposed solution provides a centralized web portal through which citizens and field officers can report suspected unauthorized construction using images, descriptions, and location information. The system provides an interactive map for visualizing reported locations and an administrative dashboard for authorities to verify, assign, monitor, and resolve cases.
-
-The platform can also maintain historical records and generate analytics to identify areas with repeated unauthorized construction reports.
-
+The solution can be provided through a web/mobile application and digital kiosk interface, helping passengers easily locate facilities and navigate the station. The official SIH description specifically calls for detailed maps, real-time directions, accessibility options, mobile/kiosk access, 3D interactive maps, voice guidance and regular updates to station layouts and facility locations.
 ## Problem Creater's Organization
 Government of NCT of Delhi
 
@@ -30,129 +31,159 @@ Implementing Authority
 
 Municipal Corporation of Delhi (MCD)
 ## Idea
-1. Citizen Complaint & Reporting Module
+1. Smart Railway Station Map
 
-Citizens can report suspected unauthorized construction through the website.
+Provide an interactive digital map of the railway station showing:
 
-Users can:
+Platforms
+Ticket counters
+Restrooms
+Food courts
+Waiting halls
+Lifts
+Escalators
+Stairs
+Help desks
+Entry/exit points
+Parking areas
 
-Register/Login
-Upload construction images
-Enter a description
-Select the construction location
-Submit a complaint
-Receive a unique complaint ID
-Track complaint status
-2. Live Location & Interactive Map
+Users can zoom, search and explore the station map.
 
-The system uses location services to identify where the suspected construction is taking place.
+2. User Location Detection
 
-An interactive map can display:
+The system identifies the passenger's current location using available location technologies.
 
-Reported construction sites
-Pending complaints
-Verified cases
-Resolved cases
-High-report areas
+The user can select:
 
-This allows authorities to understand the geographical distribution of complaints.
+Current Location → Destination
 
-3. Image Upload & Evidence Management
+For example:
 
-Citizens and field officers can upload photographs of suspected unauthorized construction.
+Platform 4 → Restroom
 
-Each image can be stored together with:
+or
 
-Complaint ID
-Date and time
-Location
-User information
-Description
-Verification status
+Entrance → Platform 6
 
-This creates a digital evidence record for each reported case.
+The system then generates a suitable route.
 
-4. AI-Assisted Image Analysis
+3. Step-by-Step Navigation
 
-An optional AI module can analyze uploaded images to identify visible construction-related indicators.
+The system provides directions such as:
 
-For example, the system can assist in identifying:
+Start → Walk straight → Take escalator → Turn left → Platform 4
 
-Construction activity
-Building structures
-Construction materials
-Changes between uploaded images
+The route can display:
 
-Important: The AI should act as an assistance tool, not as the final legal authority. Final verification should be performed by authorized officials.
+Distance
+Estimated walking time
+Turns
+Stairs
+Escalators
+Lifts
 
-5. Authority Monitoring Dashboard
+This helps passengers reach their destination without confusion.
 
-Municipal authorities receive a centralized dashboard showing:
+4. Facility Search
 
-Total reported cases
-New complaints
-Pending verification
-Verified cases
-Resolved cases
-Location-wise complaints
-Department/zone-wise cases
-Complaint trends
+Passengers can search for facilities using a simple search box.
 
-Authorities can open individual complaints and review the submitted evidence.
+For example:
 
-6. Complaint Verification & Status Tracking
+"Find restroom"
 
-Each complaint can follow a structured workflow:
+"Find food court"
 
-Submitted → Under Verification → Verified → Assigned → Action Taken → Resolved
+"Find ticket counter"
 
-Authorities can update the status and add remarks.
+"Find platform 5"
 
-Citizens can track the progress using their complaint ID.
+The system displays the location and provides navigation from the user's current position.
 
-7. Analytics & Reporting
+5. Accessibility Navigation
 
-The system generates reports based on collected data.
+The system provides special navigation options for passengers with disabilities or mobility difficulties.
 
-Examples:
+Users can select:
 
-Number of complaints per area
-Monthly complaint trends
-Pending cases
-Average resolution time
-Repeated complaint locations
-Zone-wise statistics
+Accessible Route
 
-This can help authorities identify areas requiring greater monitoring.
+The system can prioritize:
+
+Lifts
+Ramps
+Accessible entrances
+Wheelchair-friendly paths
+Avoiding stairs
+
+This is particularly important because accessibility is explicitly included in the official SIH problem description.
+
+6. Voice-Guided Navigation
+
+The system can provide voice instructions to passengers.
+
+For example:
+
+"Walk 30 metres and turn right."
+
+This feature can be especially useful for visually impaired passengers. The official expected solution includes voice-guided navigation.
+
+7. Railway Management Dashboard
+
+Railway authorities can access an administrative dashboard to:
+
+Add/update facilities
+Update platform information
+Modify station maps
+Manage routes
+Update facility availability
+Monitor navigation usage
+View passenger analytics
+Generate reports
+
+This helps keep the navigation information up to date.
+
+8. Digital Kiosk Integration
+
+Digital kiosks can be installed at important points inside railway stations.
+
+Passengers can:
+
+Search → Select Destination → View Route
+
+The official SIH problem statement specifically mentions digital kiosks with touch-screen interfaces as part of the expected solution.
 
 ## Proposed Solution / Architecture Diagram
-<img width="1288" height="440" alt="image" src="https://github.com/user-attachments/assets/f27f61b8-ac35-43da-acff-e06cbf7eda8b" />
+<img width="711" height="477" alt="image" src="https://github.com/user-attachments/assets/d05dd5e9-2f89-4d54-8b2f-8f0b9c7f19ff" />
 
 
 ## Use Cases
-<img width="1289" height="398" alt="image" src="https://github.com/user-attachments/assets/7d72f551-9c67-4060-bc86-54f2ad2b03f3" />
+<img width="714" height="378" alt="image" src="https://github.com/user-attachments/assets/9e9c6640-7c87-4ad2-a546-54eec88aaff8" />
 
 
 ## Technology Stack
-
 Frontend
 
 React.js
 
-User interface
-Complaint submission
-Dashboard
-Interactive map
-Status tracking
+Used for:
+
+Web interface
+Interactive station map
+Facility search
+Navigation interface
+Management dashboard
 Backend
 
 Node.js + Express.js
 
+Used for:
+
 REST APIs
-Complaint processing
-Authentication
-Status management
-Communication between frontend and database
+User management
+Facility management
+Route processing
+Communication with database
 Database
 
 PostgreSQL
@@ -160,60 +191,62 @@ PostgreSQL
 Stores:
 
 User information
-Complaint details
-Location data
-Complaint status
-Officer details
-Reports
-Timestamps
-Maps
+Station information
+Facility locations
+Platform information
+Route data
+Accessibility information
+Navigation history
+Maps & Location
 
-Google Maps API / OpenStreetMap
+Google Maps API / Mapbox / OpenStreetMap
 
 Used for:
 
-Location selection
-Map visualization
-Complaint mapping
-Area-based monitoring
+Interactive maps
+Location services
+Route visualization
+Facility mapping
+
+For an indoor railway-station prototype, you can also use custom GeoJSON/SVG station maps, because ordinary GPS does not reliably provide precise indoor positioning.
+
 Authentication
 
 Firebase Authentication / JWT
 
-Used for secure:
+Used for:
 
-Citizen login
-Officer login
+Passenger login
+Management login
 Administrator login
-Image Storage
+Voice Navigation
 
-Cloudinary / Firebase Storage
+Web Speech API
 
-Used to store construction photographs and supporting evidence.
-
-AI / Image Processing
-
-Python + OpenCV / TensorFlow
-
-Used for optional image analysis and comparison.
+Used to provide voice-based navigation instructions.
 
 Development Tools
+VS Code
 Git
 GitHub
-VS Code
 Postman
 
+
 ## Dependencies
-| Dependency                  | Estimated Time |
-| --------------------------- | -------------: |
-| Requirement analysis        |         3 days |
-| UI/UX design                |         4 days |
-| Frontend development        |         8 days |
-| Backend/API development     |         8 days |
-| Database development        |         4 days |
-| Maps integration            |         3 days |
-| Image upload & storage      |         3 days |
-| AI/image analysis prototype |         7 days |
-| Admin dashboard             |         5 days |
-| Testing & debugging         |         5 days |
-| Deployment                  |         2 days |
+| Dependency                          | Estimated Time |
+| ----------------------------------- | -------------: |
+| Railway station map/data collection |         7 days |
+| UI/UX design                        |         4 days |
+| Frontend development                |         8 days |
+| Backend development                 |         8 days |
+| Database development                |         4 days |
+| Maps & location integration         |         5 days |
+| Navigation/route engine             |         7 days |
+| Accessibility features              |         3 days |
+| Voice navigation                    |         3 days |
+| Management dashboard                |         5 days |
+| Testing & deployment                |         5 days |
+
+Estimated Development Time : 30–45 days
+
+Estimated Budget: ₹40,000 – ₹60,000
